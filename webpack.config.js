@@ -26,5 +26,13 @@ module.exports = {
       stack: '../src/js/stack',
       mainStyles: '../src/css/main.css'
     }
+  },
+  externals: [
+    {
+      // mainStyles: true
+    }
+  ],
+  devServer: {
+    contentBase: "./dist"
   }
 };
